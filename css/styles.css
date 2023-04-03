@@ -49,8 +49,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--dark-color);
 }
+
 .menu-link:hover,
-.menu-link:focus{
+.menu-link:focus {
   color: var(--link-active-color);
 }
 .contact{
@@ -65,10 +66,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--general-text-color);
 }
-.contact-link:hoover,
-.contact-link:focus{
-  color: #404bbf ;
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--link-active-color);
 }
+
 /*hero*/
 .hero-section{
   background-color: var(--dark-color);
@@ -99,9 +102,9 @@ border-radius: 4px;
 border: 0;
 cursor: pointer;
 }
-.order-btn:hoover,
-.order-btn:focus {
-  background: #404bbf ;
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--link-active-color);
 }
 /*features*/
 .features-title{
