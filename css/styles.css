@@ -104,9 +104,11 @@ border-radius: 4px;
 border: 0;
 cursor: pointer;
 }
-.order-btn:hover,
+.order-btn:hover{
+  background-color: #404bbf;
+}
 .order-btn:focus {
-background-color: var(--link-active-color);
+background-color: #404bbf;
 }
 /*features*/
 .features-title{
