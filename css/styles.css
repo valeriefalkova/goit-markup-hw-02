@@ -18,8 +18,8 @@
 .body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background-color: #ffffff;
-    color: var(--general-text-color);
+    background-color: var(--white-color);
+    color: #434455;
 }
 /*header*/
 
@@ -49,9 +49,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--dark-color);
 }
-.menu-link:hoover{
-  color: var(--link-active-color);
-}
+.menu-link:hover,
 .menu-link:focus{
   color: var(--link-active-color);
 }
@@ -65,9 +63,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--general-text-color);
 }
-.contact-link:hoover{
-  color: var(--link-active-color);
-}
+.contact-link:hoover,
 .contact-link:focus{
   color: var(--link-active-color);
 }
@@ -101,9 +97,7 @@ border-radius: 4px;
 border: 0;
 cursor: pointer;
 }
-.order-btn:hoover {
-  background: var(--link-active-color);
-}
+.order-btn:hoover,
 .order-btn:focus {
   background: var(--link-active-color);
 }
