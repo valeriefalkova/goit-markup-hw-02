@@ -54,6 +54,8 @@ color: var(--dark-color);
 .menu-link:focus {
   color: var(--link-active-color);
 }
+
+
 .contact{
   font-style: normal;
 }
@@ -67,8 +69,8 @@ letter-spacing: 0.02em;
 color: var(--general-text-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--link-active-color);
 }
 
@@ -102,8 +104,8 @@ border-radius: 4px;
 border: 0;
 cursor: pointer;
 }
-.menu-link:hover,
-.menu-link:focus {
+.order-btn:hover,
+.order-btn:focus {
   color: var(--link-active-color);
 }
 /*features*/
